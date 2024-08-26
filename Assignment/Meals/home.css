@@ -1,0 +1,26 @@
+.search-bar {
+  margin-top: 12px;
+  height: 28px;
+}
+.search-bar > input {
+  width: 20%;
+  border-radius: 8px;
+  margin-right: 4px;
+}
+
+.search-bar > button {
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.category-container {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.card > img {
+  width: 50%;
+  margin: auto;
+}

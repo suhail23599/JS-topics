@@ -1,0 +1,48 @@
+.meals-container {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.card {
+  flex-basis: 200px;
+}
+
+.card > img {
+  width: 50%;
+  margin: auto;
+}
+
+.modal-container {
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overscroll-behavior: contain;
+}
+
+.modal {
+  background-color: white;
+  padding: 12px;
+  border-radius: 8px;
+  width: 600px;
+  max-height: 50%;
+  max-width: 100%;
+  text-align: center;
+  overflow: scroll;
+}
+
+.modal-body > img {
+  width: 50%;
+  margin: auto;
+  border-radius: 50%;
+}

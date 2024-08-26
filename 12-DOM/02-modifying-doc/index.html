@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
+<style>
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  padding: 30px;
+}
+</style>
+<script>
+  const divElem = document.createElement('div')
+  divElem.className = 'box'
+  divElem.innerHTML = '<div> This is a test </div>'
+  document.body.appendChild(divElem)
+
+  elem.insertAdjacentHTML(where, html)
+  // where: 'beforebegin', 'afterbegin', 'beforeend', 'afterend'
+  divElem.insertAdjacentHTML('beforeend', '<div> This is beforeend div </div>')
+  divElem.insertAdjacentHTML('afterbegin', '<div> This is afterbegin div </div>')
+  divElem.insertAdjacentHTML('beforebegin', '<div> This is beforebegin div </div>')
+</script>
+
