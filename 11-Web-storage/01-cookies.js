@@ -1,1 +1,1 @@
-document.cookie = "username=John Doe; expires=Thu, 19 Dec 2024 12:00:00 UTC; path=/; secure";
+document.cookie = "username=John Doe; expires=Thu, 19 Dec 2024 12:00:00 UTC;";

@@ -4,12 +4,16 @@
   3.can have special character like $ and _
  */
 
-let message = "hello js"
-console.log(message)
+// var name = "John"
+// console.log(name, 'var')
+// let message = "hello js"
+// console.log(message)
 
-const MSG = 'message'
+// const MSG = 'message'
 
 /*
   Re-declaring variable is not allowed 
 */
-// var message = "hello js"
+var a = "hello js"
+var a = "123"
+

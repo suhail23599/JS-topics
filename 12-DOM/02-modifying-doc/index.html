@@ -4,7 +4,6 @@
   <title>Document</title>
 </head>
 <body>
-  
 </body>
 </html>
 <style>
@@ -20,11 +19,16 @@
   divElem.className = 'box'
   divElem.innerHTML = '<div> This is a test </div>'
   document.body.appendChild(divElem)
+  
+  // const newEl = document.createElement('div')
+  // newEl.innerHTML = 'This is a new element'
+  // document.body.append(newEl)
 
-  elem.insertAdjacentHTML(where, html)
+  // elem.insertAdjacentHTML(where, html)
   // where: 'beforebegin', 'afterbegin', 'beforeend', 'afterend'
   divElem.insertAdjacentHTML('beforeend', '<div> This is beforeend div </div>')
   divElem.insertAdjacentHTML('afterbegin', '<div> This is afterbegin div </div>')
   divElem.insertAdjacentHTML('beforebegin', '<div> This is beforebegin div </div>')
+  divElem.insertAdjacentHTML('afterend', '<div> This is afterend div </div>')
 </script>
 

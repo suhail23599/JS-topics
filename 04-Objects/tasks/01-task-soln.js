@@ -28,6 +28,7 @@ function Inventory() {
   // Method to list all available books
   this.listAvailableBooks = function () {
     let availableBooks = '';
+    console.log(this.books, 'books')
     for (let title in this.books) {
       if (this.books[title].isAvailable) {
         availableBooks += this.books[title].title + '\n';

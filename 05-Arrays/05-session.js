@@ -38,10 +38,10 @@ let result2 = arr5.map((item) => item * 2)
 console.log(result2)
 
 // 6. reduce, used to return single value
-// reduce((accumulator, item, index, array) => accumulator + item)
+// by default accumator value is the first element
 console.log('reduce method')
 let arr6 = [1, 2, 3, 4, 5]
-let result3 = arr6.reduce((total, item) => total + item)
+let result3 = arr6.reduce((total, item) => total + item, 0)
 console.log(result3)
 
 // 7. sort
@@ -49,14 +49,14 @@ console.log('sort method')
 let arr7 = [1, 15, 2]
 let result4 = arr7.sort() // lexically sorted
 console.log(result4)
+
 let result5 = arr7.sort((a, b) => {
-  console.log(a, ">", b)
   return a-b
 }) // ascending
 console.log(result5)
 
-let arr8 = ['apple', 'orange', 'banana']
-let result6 = arr8.sort()
-console.log(result6)
+// let arr8 = ['apple', 'orange', 'banana']
+// let result6 = arr8.sort()
+// console.log(result6)
 
 

@@ -1,7 +1,7 @@
 
 // 1. Function parameters
 function sum(a, b) {
-  return a + b
+  return (a+b);
 }
 console.log(sum(1, 2))
 
@@ -13,10 +13,11 @@ sayHello()
 sayHello('Ann')
 
 // 3. Function with rest parameters
-function sumAll(...args) {
+// storing in an array with rest operator
+function sumAll(...arg) {
   let total = 0
-  for (let i = 0; i < args.length; i++) {
-    total += args[i]
+  for (let i = 0; i < arg.length; i++) {
+    total += arg[i]
   }
   return total
 }

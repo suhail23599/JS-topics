@@ -3,10 +3,14 @@ function sayHello(name) {
   console.log('Hello', name)
 }
 
+sayHello('Jhon')
+
+
 // function expression
 const sayBye = function (name) {
   console.log('Bye', name)
 }
+sayBye('Ann')
 
 // functions are objects
 console.log('Representing Function')
